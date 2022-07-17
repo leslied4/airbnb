@@ -1,7 +1,7 @@
 import star from "./assets/star.svg";
 
 export default function Card({item}) {
-  const img=`/src/assets/${item.coverImg}`
+  const img=`./${item.coverImg}`
   let badgeText
   if (item.openSpots === 0) {
       badgeText = "SOLD OUT"
